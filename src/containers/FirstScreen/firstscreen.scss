@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  max-width: 420px;
+  background-image: url("../../images/Dhoni1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0.2rem auto;
+  position: relative;
+  color: #fff;
+
+  .date-time {
+    h1 {
+      padding-top: 15vh;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.342);
+      .time {
+        font-weight: 300;
+        font-size: 80px;
+        display: block;
+      }
+
+      .date {
+        font-weight: 400;
+        font-size: 18px;
+        display: block;
+      }
+    }
+  }
+
+  .updates {
+    padding: 1rem;
+    width: 92%;
+    height: 12%;
+    background-color: #af8f02b7;
+    position: absolute;
+    left: 0;
+    top: 75%;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 0 1px 0 rgba(255, 242, 58, 0.514);
+
+    &-score {
+      flex-basis: 70%;
+      text-align: left;
+      &-title {
+        font-size: 90%;
+      }
+
+      .glance-logo {
+        margin: 0.2rem 0;
+        height: 20px;
+      }
+    }
+
+    &-see-more {
+      button {
+        cursor: pointer;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 10px;
+        background-color: #f5b134;
+        text-transform: uppercase;
+        color: inherit;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
